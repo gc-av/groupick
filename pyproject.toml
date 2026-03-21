@@ -1,7 +1,6 @@
 [project]
-
 name = "groupick"
-version = "1.1.2-1"
+version = "1.1.2-2"
 description = "Assign options to groups in the terminal with a simple GUI. Based on wong2's pick"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -23,7 +22,7 @@ Repository = "https://github.com/gc-av/groupick"
 
 [tool.poetry.dependencies]
 python = ">=3.10"
-windows-curses = { version = "^2.2.0", platform = "win32" }
+windows-curses = { version = "~2.2.0", platform = "win32" }
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^7.2"
@@ -31,5 +30,5 @@ mypy = "^1.0"
 pre-commit = "^3.0"
 
 [build-system]
-requires = ["poetry-core>=1.5"]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
