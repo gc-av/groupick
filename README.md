@@ -1,6 +1,6 @@
 # groupick
 
-[![image](https://github.com/anafvana/groupick/actions/workflows/ci.yml/badge.svg)](https://github.com/anafvana/groupick/actions/workflows/ci.yml)
+[![image](https://github.com/gc-av/groupick/actions/workflows/ci.yml/badge.svg)](https://github.com/gc-av/groupick/actions/workflows/ci.yml)
 [![PyPI](https://img.shields.io/pypi/v/groupick.svg)](https://pypi.org/project/groupick/)
 [![PyPI](https://img.shields.io/pypi/dm/groupick)](https://pypi.org/project/groupick/)
 
@@ -42,4 +42,4 @@
 
 [wong2's pick](https://github.com/wong2/pick): Original pick project, for selecting one or more options (no grouping)
 
-[pickpack](https://github.com/anafvana/pickpack): A fork of [`pick`](https://github.com/wong2/pick) to select tree data.
+[pickpack](https://github.com/gc-av/pickpack): A fork of [`pick`](https://github.com/wong2/pick) to select tree data.

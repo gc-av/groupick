@@ -1,23 +1,35 @@
-[tool.poetry]
+[project]
+
 name = "groupick"
-version = "1.1.2"
+version = "1.1.2-1"
 description = "Assign options to groups in the terminal with a simple GUI. Based on wong2's pick"
-authors = ["Ana <anafvana@gmail.com>", "wong2 <wonderfuly@gmail.com>"]
-license = "MIT"
 readme = "README.md"
-repository = "https://github.com/anafvana/groupick/"
-homepage = "https://github.com/anafvana/groupick/"
-keywords = ["terminal", "gui","pick", "group", "assign"]
+license = { file = "LICENSE" }
+authors = [
+    { name = "gc-av", email = "gc-av.dev@pm.me" },
+    { name = "wong2", email = "wonderfuly@gmail.com" },
+]
+keywords = ["terminal", "gui", "pick", "group", "assign"]
+requires-python = ">=3.10"
+
+dependencies = ["anytree>=2.8,<3.0"]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.2.0,<8.0.0"]
+
+[project.urls]
+Homepage = "https://github.com/gc-av/groupick"
+Repository = "https://github.com/gc-av/groupick"
 
 [tool.poetry.dependencies]
 python = ">=3.10"
-windows-curses = {version = "^2.2.0", platform = "win32"}
+windows-curses = { version = "^2.2.0", platform = "win32" }
 
 [tool.poetry.group.dev.dependencies]
-pytest = "^7.2.0"
-mypy = "^0.991"
-pre-commit = "^2.20.0"
+pytest = "^7.2"
+mypy = "^1.0"
+pre-commit = "^3.0"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core>=1.5"]
 build-backend = "poetry.core.masonry.api"
