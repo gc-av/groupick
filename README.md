@@ -4,6 +4,10 @@
 [![PyPI](https://img.shields.io/pypi/v/groupick.svg)](https://pypi.org/project/groupick/)
 [![PyPI](https://img.shields.io/pypi/dm/groupick)](https://pypi.org/project/groupick/)
 
+> [!WARNING]
+>
+> **This project is semi-abandoned.** If anyone is using it, submit an issue and I will check why the CI is failing.
+
 **groupick** is a small python library based on [wong2's pick](https://github.com/wong2/pick) which allows you to create a curses-based interactive selection in the terminal. With **groupick** you can assign options to groups.
 
 ![](example/basic.gif)
